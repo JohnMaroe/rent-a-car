@@ -4,7 +4,6 @@ import { ICategoriesRepository, ICreateCategoryDTO } from "../ICategoriesReposit
 import { getRepository, Repository } from 'typeorm';
 
 // Singleton
-
 class CategoriesRepository implements ICategoriesRepository {
   private repository: Repository<Category>;
 
